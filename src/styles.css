@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	background:#5c57e6;
+}
+.container {
+	max-width:600px;
+	width:100%;
+	margin:0 auto;
+}
+.pull-left {
+	float:left;
+}
+.pull-right {
+	float:right;
+}

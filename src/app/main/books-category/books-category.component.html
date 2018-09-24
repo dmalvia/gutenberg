@@ -1,0 +1,11 @@
+<div>
+	<div class="b-title">
+		Gutenberg Project
+	</div>
+	<div class="b-category-list">
+		<div *ngFor="let item of genreList " class="b-book-category" (click)="routeToBooksList(item)">
+			<span class="pull-left">{{item}}</span>
+			<span class="pull-right"><img src="assets/ic_right_arrow.png" width="30px" height="30px" alt="right arrow" /></span>
+		</div>
+	</div>
+</div>
